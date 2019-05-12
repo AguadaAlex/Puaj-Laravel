@@ -1,3 +1,6 @@
 <?php
-echo "hello";
+    require_once "core/configGeneral.php";
+    include "vista/plantilla.php";
+    
+    # ¿Es correcta la ruta?
 ?>
