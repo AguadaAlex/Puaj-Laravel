@@ -3,4 +3,5 @@
     include "vista/plantilla.php";
     
     # ¿Es correcta la ruta?
+    # Edit: la plantilla es para testeo solamente.
 ?>
