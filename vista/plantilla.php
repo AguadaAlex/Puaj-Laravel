@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<?php include "vista/modulos/head.php"; ?>
 </head>
 <body>
+	<div class="caja">
 	<?php
 		require_once "controlador/vistaControlador.php";
 
@@ -26,8 +27,11 @@
 		else:
 	?>
 
+	<!-- Cabecera --> 
+	<?php include "vista/modulos/cabecera.php"; ?>
 
-	<!-- Contenido de la página -->
+	<!-- Contenido de la página, dentro de la section wrapper --->
+	<section class="wrapper">
 
 	<?php 
 		/*
@@ -40,5 +44,11 @@
 		endif;
 	?>
 
+	</section>
+
+	<!-- Pie de página --->
+	<?php include "vista/modulos/pie.php"; ?>
+
+	</div>
 </body>
 </html>
