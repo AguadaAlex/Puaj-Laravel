@@ -1,25 +1,67 @@
-<div class="searcher">
+<div class="container text-center">
 	
-	<input type="search" placeholder= "Ingresar materia" class="">
-	<!--<input type="submit" value="Buscar">-->
-	<button class="btn btn-success"><i class="fas fa-search"></i></button>
+	<br>
+		<form class="form-inline ">
+	
+  			<div class="form-group mb-2 ">
+    			<label for="staticEmail2" class="sr-only">Email</label>
+    			<input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Introduzca Materia">
+  			</div>
+  			<div class="form-group mx-md-3 mb-2">
+    			<label for="inputPassword2" class="sr-only">Password</label>
+    			<input type="password" class="form-control" id="inputPassword2" placeholder="Materia">
+  			</div>
+  			<button type="submit" class="btn btn-warning btn-circle mb-2">Confirmar</button>
+
+		</form>
+	
+	<br>
+	<div class="table-responsive">
+	<table class="table table-borderless">
+  		
+  		<tbody>
+    	<tr>
+      
+      <td><button id="" class="btn-danger btn-circle btn-lg" >Instituto de Ingeniería y Agronomía</button></td>
+      <td></td>
+      <td><button id="" class="btn-success btn-circle btn-lg">Instituto de Ciencias de la Salud</button></td>
+    </tr>
+    
+    <tr>
+    
+      <td><button id="" class="btn-info btn-circle btn-lg form-submit">Instituto de Ciencias Sociales y Administración</button></td>
+	  <td></td>
+	  <td><button id="" class="btn-primary btn-circle btn-lg form-submit">Instituto de Estudios Iniciales</button></td>
+    </tr>
+  </tbody>
+</table>
 </div>
-<div class="botones_institutos">
+
+
+<!--
+<div class="col-sm-6"><button id="" class="btn-danger btn-lg btn-block form-submit" >Instituto de Ingeniería y Agronomía</button></div>
+  <div class="col-sm-6"><button id="" class="btn-success btn-lg form-submit">Instituto de Ciencias de la Salud</button></div>
+  <br>
+  <div class="col-sm-6"><button id="" class="btn-info btn-lg form-submit">Instituto de Ciencias Sociales y Administración</button></div>
+  <div class="col-sm-6"><button id="" class="btn-primary btn-lg form-submit">Instituto de Estudios Iniciales</button></div>
+--><!--
+<button type="button" class="btn btn-pr<button id="iniciales" class="btn-primary btn form-submit">Instituto de Estudios Iniciales</button>imary">Primary</button>
 	<form action="institutos">
-		<!-- Cambiar action="institutos" por "carreras" cuando este terminado --->
-		<button id="ingenieria" class="btn-primary btn form-submit" >Instituto de Ingeniería y Agronomía</button>
+	
+		<button id="" class="btn-danger btn form-submit" >Instituto de Ingeniería y Agronomía</button>
 	</form>
 	<form action="">
-		<button id="salud" class="btn-primary btn form-submit">Instituto de Ciencias de la Salud</button>
+	<button type="button" class="btn btn-primary">Primary</button>
+		<button id="" class="btn-success btn form-submit">Instituto de Ciencias de la Salud</button>
 	</form>
 	<form action="">
-		<button id="sociales" class="btn-primary btn form-submit">Instituto de Ciencias Sociales y Administración</button>
+		<button id="" class="btn-info btn form-submit">Instituto de Ciencias Sociales y Administración</button>
 	</form>
 	<form action="">
 		<button id="iniciales" class="btn-primary btn form-submit">Instituto de Estudios Iniciales</button>
 	</form>
 	
-	<!--<input class="ingenieria "type="submit" value="Instituto de Ingeniería y Agronomía" >
+	<input class="ingenieria "type="submit" value="Instituto de Ingeniería y Agronomía" >
 	<input type="submit" value="Instituto de Ciencias Sociales y Administración">
 	<input type="submit" value="Instituto de Ciencias de la Salud">
 	<input type="submit" value="Instituto de Estudios Iniciales">-->

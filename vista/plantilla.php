@@ -4,7 +4,7 @@
 	<?php include "vista/modulos/head.php"; ?>
 </head>
 <body>
-	<div class="caja">
+	
 	<?php
 		require_once "controlador/vistaControlador.php";
 
@@ -28,12 +28,16 @@
 	?>
 
 	<!-- Cabecera --> 
-	<?php include "vista/modulos/cabecera.php"; ?>
+	<section class="encabezado text-center">
+		<div class="container">
 
+			<?php include "vista/modulos/cabecera.php"; ?>
+		</div>
+	</section>
 	<!-- Contenido de la página, dentro de la section wrapper --->
-	<section class="wrapper">
-
-	<?php 
+	<section class="wrapper ">
+		<div class="container ">
+				<?php 
 		/*
 			Se supone que la plantilla debe tener secciones como la
 			barra superior y los botones ya colocados, y aca, en el contenido
@@ -43,12 +47,14 @@
 		require_once $vistaR; 
 		endif;
 	?>
-
+	</div>
 	</section>
-
+	<section class="pie">
+		<div class="container text-center">
 	<!-- Pie de página --->
-	<?php include "vista/modulos/pie.php"; ?>
+			<?php include "vista/modulos/pie.php"; ?>
 
 	</div>
+	</section>
 </body>
 </html>
