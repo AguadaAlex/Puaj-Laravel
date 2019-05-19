@@ -5,7 +5,19 @@
 </head>
 <body>
 	
-	<?php
+	
+
+	<!-- Cabecera --> 
+	<section class="encabezado text-center">
+		<div class="container">
+
+			<?php include "vista/modulos/cabecera.php"; ?>
+		</div>
+	</section>
+	<!-- Contenido de la página, dentro de la section wrapper --->
+	<section class="wrapper text-center">
+		<div class="container ">
+		<?php
 		require_once "controlador/vistaControlador.php";
 
 		/*
@@ -26,17 +38,6 @@
 			require_once "vista/contenidos/login.php";
 		else:
 	?>
-
-	<!-- Cabecera --> 
-	<section class="encabezado text-center">
-		<div class="container">
-
-			<?php include "vista/modulos/cabecera.php"; ?>
-		</div>
-	</section>
-	<!-- Contenido de la página, dentro de la section wrapper --->
-	<section class="wrapper ">
-		<div class="container ">
 				<?php 
 		/*
 			Se supone que la plantilla debe tener secciones como la
@@ -49,12 +50,12 @@
 	?>
 	</div>
 	</section>
-	<section class="pie">
-		<div class="container text-center">
+	<section class="pie text-center py-2">
+		
 	<!-- Pie de página --->
 			<?php include "vista/modulos/pie.php"; ?>
 
-	</div>
+	
 	</section>
 </body>
 </html>

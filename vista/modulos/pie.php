@@ -1,4 +1,4 @@
 
-		<footer >
+		<div class="container">
 			<p>Universidad Nacional Arturo Jauretche</p>
-		</footer>
+		</div>
